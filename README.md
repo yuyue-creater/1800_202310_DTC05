@@ -6,9 +6,10 @@ This browser based web application to ...
 
 ## 2. Names of Contributors
 List team members and/or short bio's here... 
-* ...
-* ...Hi, my name is Emma! I am excited to be starting my journey as a programmer!
-* ...
+* Hi, my name is Emma! I am excited to be starting my journey as a programmer!
+* Hi, my name is Evan and I am excited to learn (:
+* Hi, my name is Michael! I am glad to participate in this 1800 project!
+* 
 	
 ## 3. Technologies and Resources Used
 List technologies (with version numbers), API's, icons, fonts, images, media or data sources, and other resources that were used.
