@@ -1,1 +1,24 @@
 
+* {
+    box-sizing: border-box; 
+    font-family: Geneva, Tahoma;
+}
+
+nav a :hover{ 
+    color : red;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block; 
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a:hover { 
+    background-color: black;
+    color: white;
+}
+
+.underline_b{
+    border-bottom: 1px solid grey;
+}
