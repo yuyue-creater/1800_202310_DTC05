@@ -10,27 +10,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap Library CSS CDN go here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- Boostrap Library JS CDN  go here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <!-- Other libraries go here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- Google Icons (Material Design)-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Link to styles of your own -->
-    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="style.css" />
+
 
 </head>
 
-<body>
+<body style="background-color: red;">
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.climatesignals.org/sites/default/files/2021-08/610cfae72dd63d0c677e26fa_City-Heatwave%5B1%5D.jpg"
+                    height="36">
+                Heatwave Safety Tips</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Social Media Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Link to scripts of your own -->
-    <!-- <script src="./scripts/script.js"></script> -->
+    <div class="px-4 py-5 my-5 text-center bg-warning">
+        <img class="d-block mx-auto mb-4"
+            src="https://i.cbc.ca/1.6082002.1624748757!/fileImage/httpImage/heat-wave.jpg"
+            alt="" width="500" height="300">
+        <h1 class="display-5 fw-bold">Welcome to Heatwave Guide</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Let's start the guide to get prepared for heat waves!</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" onclick="window.location.href='login.html'">Login to your personal
+                    account</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1162186742/vector/set-of-outfit-creator-with-summer-fashion-womens-clothing-t-shirt-shorts.jpg?s=612x612&w=0&k=20&c=Eo915hzFjt7PqHPRUytOU3P7llqPBX4lUD-RaWNl1NQ=" class="card-img-top"
+                    alt="..." height="300">
+                <div class="card-body">
+                    <h5 class="card-title">Light Clothing</h5>
+                    <p class="card-text">Get tips on the best type of clothing to wear</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.vpl.ca/sites/vpl/public/branch-CEN.jpg"
+                    class="card-img-top" alt="..." height="300">
+                <div class="card-body">
+                    <h5 class="card-title">Public facilities in Vancouver</h5>
+                    <p class="card-text">Where should you go to cool down in? 
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://greenwaldllp.com/wp-content/uploads/2017/09/emergency-contact.jpg" class="card-img-top"
+                    alt="..." height="300">
+                <div class="card-body">
+                    <h5 class="card-title">Emergency Contacts</h5>
+                    <p class="card-text">Emergency contacts to utilize in order to receive alerts</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="navbar justify-content-evenly bg-info fixed-bottom" style="color: red">
+        <div class="container py-1" style="color: red">
+            <i>Help</i>
+            <i class="material-icons">home</i>
+            <i class="material-icons">map</i>
+        </div>
+    </footer>
+
 
 </body>
 
